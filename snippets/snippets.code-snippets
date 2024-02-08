@@ -1,0 +1,62 @@
+{
+    "Default vue by scopped style": {
+        "prefix": "!vue",
+        "body": [
+            "<template>",
+            "   <div>",
+            "",
+            "   </div>",
+            "</template>",
+            "",
+            "<script>",
+            "   export default {",
+            "",
+            "   }",
+            "</script>",
+            "",
+            "<style scoped>",
+            "",
+            "</style>"
+        ]
+    },
+    "Data for vue": {
+        "prefix": "data",
+        "body": [
+            "data() {",
+            "  return {",
+            "",
+            "  }",
+            "},"
+        ]
+    },
+    "Components for vue": {
+        "prefix": "components",
+        "body": [
+            "components: {",
+            "${1:name}: ${2:component},",
+            "},"
+        ]
+    },
+    "Name for vue": {
+        "prefix": "name",
+        "body": [
+            "name: \"${1:name}\",",
+        ]
+    },
+    "Props for vue": {
+        "prefix": "props",
+        "body": [
+            "props: {",
+            "",
+            "}"
+        ]
+    },
+    "Methods for vue": {
+        "prefix": "methods",
+        "body": [
+            "methods: {",
+            "",
+            "},"
+        ]
+    }
+}
